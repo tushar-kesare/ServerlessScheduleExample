@@ -1,0 +1,7 @@
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\bin\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.deps.json
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\bin\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.dll
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\bin\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.pdb
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.csprojResolveAssemblyReference.cache
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.AssemblyInfo.cs
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.dll
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Debug\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.pdb

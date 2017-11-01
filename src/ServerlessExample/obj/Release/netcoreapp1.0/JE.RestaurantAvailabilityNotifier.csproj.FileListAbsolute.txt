@@ -1,0 +1,14 @@
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\bin\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.deps.json
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\bin\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.dll
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\bin\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.pdb
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.AssemblyInfo.cs
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.dll
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.pdb
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.csprojResolveAssemblyReference.cache
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\bin\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.deps.json
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\bin\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.dll
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\bin\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.pdb
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.csprojResolveAssemblyReference.cache
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.AssemblyInfo.cs
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.dll
+C:\LearningMachine\JE.RestaurantAvailabilityNotifier\src\JE.RestaurantAvailabilityNotifier\obj\Release\netcoreapp1.0\JE.RestaurantAvailabilityNotifier.pdb

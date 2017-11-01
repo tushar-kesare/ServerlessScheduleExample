@@ -1,0 +1,8 @@
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\bin\Debug\netcoreapp1.0\ServerlessExample.deps.json
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\bin\Debug\netcoreapp1.0\ServerlessExample.dll
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\bin\Debug\netcoreapp1.0\ServerlessExample.pdb
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\obj\Debug\netcoreapp1.0\ServerlessExample.csprojResolveAssemblyReference.cache
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\obj\Debug\netcoreapp1.0\ServerlessExample.csproj.CoreCompileInputs.cache
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\obj\Debug\netcoreapp1.0\ServerlessExample.AssemblyInfo.cs
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\obj\Debug\netcoreapp1.0\ServerlessExample.dll
+C:\LearningMachine\ServerlessSample\src\ServerlessExample\obj\Debug\netcoreapp1.0\ServerlessExample.pdb

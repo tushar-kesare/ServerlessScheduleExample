@@ -1,0 +1,7 @@
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\bin\Release\netcoreapp1.0\ServerlessExample.deps.json
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\bin\Release\netcoreapp1.0\ServerlessExample.dll
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\bin\Release\netcoreapp1.0\ServerlessExample.pdb
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\obj\Release\netcoreapp1.0\ServerlessExample.csproj.CoreCompileInputs.cache
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\obj\Release\netcoreapp1.0\ServerlessExample.AssemblyInfo.cs
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\obj\Release\netcoreapp1.0\ServerlessExample.dll
+C:\LearningMachine\ServerlessScheduleExample\src\ServerlessExample\obj\Release\netcoreapp1.0\ServerlessExample.pdb

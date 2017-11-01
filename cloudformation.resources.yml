@@ -1,0 +1,35 @@
+defaultRole:
+  Type: AWS::IAM::Role
+  Properties:
+    Path: /lambda_roles/ # IMPORTANT: Do not change the path! If you do, you won't have permissions to create IAM role in production
+    RoleName: ${file(je.env.yml):feature}DefaultRole
+    AssumeRolePolicyDocument:
+      Version: '2012-10-17'
+      Statement:
+        - Effect: Allow
+          Principal:
+            Service:
+              - lambda.amazonaws.com
+          Action: sts:AssumeRole
+    Policies:
+      - PolicyName: defaultRolePolicy
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Action:
+                - logs:CreateLogGroup
+                - logs:CreateLogStream
+                - logs:PutLogEvents
+              Resource: arn:aws:logs:${self:provider.region}:${self:provider.accountId}:log-group:/aws/lambda/*:*:*
+            - Effect: Allow
+              Action:
+                - ec2:CreateNetworkInterface
+                - ec2:DescribeNetworkInterfaces
+                - ec2:DetachNetworkInterface
+                - ec2:DeleteNetworkInterface
+              Resource: '*'
+            - Effect: Allow
+              Action:
+                - kms:Decrypt
+              Resource: '*'

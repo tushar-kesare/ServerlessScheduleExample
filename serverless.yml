@@ -1,0 +1,29 @@
+# Service name should be equal to your Just Eat feature name as defined in metadata
+# The pipeline will pass it as a 'feature' variable in generated je.env.yml
+service: ${file(je.env.yml):feature}
+
+frameworkVersion: ">=1.5.1 <2.0.0"
+
+provider:
+  name: aws
+  runtime: dotnetcore1.0
+  memorySize: 256 # optional, default is 1024
+  stage: ${file(je.env.yml):stage}
+  region: ${file(je.env.yml):region}
+  accountId: ${file(je.env.yml):accountId}
+  environment: ${file(je.env.yml):env} # default environment variables that will be available to all functions in the service
+  deploymentBucket: je-deployments-${file(je.env.yml):environment} # Use conventional Just Eat deployment bucket
+  role: defaultRole # defined in resources section, custom role is required in order for eng-deployer credentials to be able to create it in production
+
+package:
+  artifact: bin/deployment-archive.zip # This should correspond to output of .\Package.ps1
+
+functions:
+  testupdateschedule:
+    handler: ServerlessExample::ServerlessExample.Handler::ExecuteLambda # <Assembly name>::<Full class name>::<Method name>
+    description: Execute function at defined schedule
+    events:
+      - schedule: cron(0 3 * * MON *)
+    
+resources:
+  Resources: ${file(cloudformation.resources.yml)} # Can be YAML or JSON CloudFormation resources definition

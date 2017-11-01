@@ -1,0 +1,16 @@
+{
+    "name": "serverlessscheduleexample",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "cd src && dotnet restore && dotnet publish -c Release && cd ..",
+      "package": "powershell .\\Package.ps1",
+      "deploy": "node_modules/.bin/serverless deploy --verbose",
+      "publish": "npm run build && npm run package && npm run deploy"
+    },
+    "dependencies": {
+      "serverless": "^1.23.0"
+    },
+    "devDependencies": {
+      }
+  }
+  
