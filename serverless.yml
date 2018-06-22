@@ -23,7 +23,7 @@ functions:
     handler: ServerlessExample::ServerlessExample.Handler::ExecuteLambda # <Assembly name>::<Full class name>::<Method name>
     description: Execute function at defined schedule
     events:
-      - schedule: cron(0 3 * * MON *)
+      - schedule: cron(0 3 * * SUN *)
     
 resources:
   Resources: ${file(cloudformation.resources.yml)} # Can be YAML or JSON CloudFormation resources definition
